@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Welcome to SCSDevlopers</title>
 </head>
 <body>
-<% java.util.Date d = new java.util.Date(); %>
+<% java.util.Date todayDate = new java.util.Date(); %>
 <h1>
-Today's date is <%= d.toString() %> - By SCSDevelopers!
+Today's date is <%= todayDate.toString() %> - By SCSDevelopers!
 </h1>
 </body>
 </html>
